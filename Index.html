@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Untuk Rahma ❤️</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: Arial;
+            color: white;
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            overflow: hidden;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid white;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 18px;
+            padding: 0 20px;
+        }
+        .love {
+            font-size: 50px;
+            animation: beat 1s infinite;
+        }
+        @keyframes beat {
+            0% {transform: scale(1);}
+            50% {transform: scale(1.2);}
+            100% {transform: scale(1);}
+        }
+
+        .heart {
+            position: absolute;
+            color: pink;
+            animation: fall 5s linear infinite;
+        }
+        @keyframes fall {
+            0% {top: -10%; opacity: 1;}
+            100% {top: 110%; opacity: 0;}
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="https://i.ibb.co.com/Kj83bFmy/IMG-20260214-WA0026.jpg" style="
+width:200px;
+height:200px;
+border-radius:50%;
+border:5px solid white;
+object-fit:cover;
+margin-top:20px;
+">
+
+    <h1>🌙 Selamat Hari Raya Eid 🌙</h1>
+    <h2>Untuk Rahma Putri Nurfauziah 💖</h2>
+
+    <p>Mohon maaf lahir dan batin 🙏</p>
+    <p>Kamu adalah kebahagiaan aku 😊</p>
+<p>Kamu adalah kebahagiaan aku 😊</p>
+
+<p>Rahma, terima kasih sudah hadir di hidup aku 💖</p>
+<p>Kamu bukan cuma seseorang yang spesial, tapi kamu adalah kebahagiaan aku 😊</p>
+<p>Di hari yang suci ini, aku minta maaf atas semua kesalahan aku 🙏</p>
+<p>Aku mungkin belum sempurna, tapi perasaan aku ke kamu selalu tulus ❤️</p>
+<p>Semoga kita selalu bersama, saling menjaga, dan saling mencintai 💞</p>
+<p>Aku sayang kamu, Rahma Putri Nurfauziah 💕</p>
+    
+    <div class="love">💞</div>
+
+    <p>Dari aku, yang selalu sayang kamu ❤️</p>
+
+    <audio autoplay loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+</div>
+
+<script>
+for (let i = 0; i < 20; i++) {
+    let heart = document.createElement("div");
+    heart.className = "heart";
+    heart.innerHTML = "💖";
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.fontSize = (20 + Math.random() * 30) + "px";
+    heart.style.animationDuration = (3 + Math.random() * 5) + "s";
+    document.body.appendChild(heart);
+}
+</script>
+
+</body>
+</html>
